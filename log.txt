@@ -1,0 +1,31 @@
+Log Entry: 2024-10-03 16:57:36
+-------------------------------------------------------------------------
+Initial Conditions and Parameters:
+-------------------------------------------------------------------------
+Mass (m): 1.50 kg
+Moments of Inertia: Ixx=0.014, Iyy=0.018, Izz=0.022 kg*m^2
+Gravitational Constant (g): 9.81 m/s^2
+Arm Length (L): 0.25 m
+Yaw Control Constant (k): 0.01
+Initial State (angles and angular velocities): [0.5, 0.7, 0.0, 0, 0.05, 0] 
+Simulation Parameters:
+Timestep: 0.000200 s
+Duration: 2.0 s
+
+-------------------------------------------------------------------------
+PID Parameters:
+-------------------------------------------------------------------------
+Roll: Kp=1.7, Ki=0.12, Kd=0.115, Output Limits=(-5, 5)
+Pitch: Kp=1.7, Ki=0.12, Kd=0.115, Output Limits=(-5, 5)
+Yaw: Kp=1.7, Ki=0.12, Kd=0.115, Output Limits=(-3, 3)
+
+-------------------------------------------------------------------------
+Performance Parameters:
+-------------------------------------------------------------------------
+Performance Metrics for Roll (phi):
+Steady-State Error: -0.0019, Rise Time: 0.2556s, Settling Time: 0.7553s, Overshoot: -0.0019
+Performance Metrics for Pitch (theta):
+Steady-State Error: -0.0027, Rise Time: 0.2164s, Settling Time: 0.7161s, Overshoot: -0.0283
+Performance Metrics for Yaw (psi):
+Steady-State Error: 0.0000, Rise Time: 0.0014s, Settling Time: 10000.0000s, Overshoot: -0.0867
+ 
